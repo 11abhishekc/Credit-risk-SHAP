@@ -5,5 +5,5 @@ pandas==3.1.0pandas==2.2.3
 joblib==1.6.0
 numpy==2.5.4
 # MUST match the version used to train/pickle credit_risk_model.pkl:
-scikit-learn==1.9.1# Add whatever else your pipeline imports, e.g. xgboost / lightgbm / imbalanced-learn / category_encoders
+scikit-learn==1.9.1  # Add whatever else your pipeline imports, e.g. xgboost / lightgbm / imbalanced-learn / category_encoders
 xgboost==3.4.1
