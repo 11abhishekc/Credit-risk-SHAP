@@ -1,0 +1,10 @@
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+pydantic==2.10.4
+pandas==2.2.3
+joblib==1.4.2
+numpy==2.1.3
+# MUST match the version used to train/pickle credit_risk_model.pkl:
+scikit-learn==1.5.2
+# Add whatever else your pipeline imports, e.g. xgboost / lightgbm / imbalanced-learn / category_encoders
+xgboost
